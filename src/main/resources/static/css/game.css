@@ -1,0 +1,604 @@
+body{
+    background-color: black;
+
+}
+.game{
+
+}
+.game .background-picture{
+    position: fixed;
+    left: 140px;
+    top: 15px;
+}
+.game .background-picture .header{
+    position: fixed;
+    left: 140px;
+    top: 15px;
+}
+.game .background-picture .beat{
+    position: fixed;
+    left: 160px;
+    top: 100px;
+}
+.game .background-picture .score-icon{
+    position: fixed;
+    left: 400px;
+    top: 25px;
+}
+
+/*span{*/
+    /*background-image: url("../images/0-9.png");*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.game .background-picture .score{*/
+    /*position: fixed;*/
+    /*left: 450px;*/
+    /*top: 28px;*/
+/*}*/
+
+.game .background-picture .score{
+    position: fixed;
+    left: 550px;
+    top: 35px;
+}
+
+.beat-score,.x20{
+    position: fixed;
+    left: 290px;
+    top: 120px;
+}
+
+.font {
+    font-size: larger;
+    color: white;
+}
+
+.game .background-picture .score .zero{
+    width: 31px;
+    height: 40px;
+    background-position: -1px -1px;
+}
+
+
+
+.game .background-picture .score .one{
+    margin-left: -8px;
+    width: 20px;
+    height: 40px;
+    background-position: -39px -1px;
+}
+.game .background-picture .score .two{
+    width: 26px;
+    height: 40px;
+    background-position: -75px -1px;
+}
+.game .background-picture .score .three{
+    width: 28px;
+    height: 40px;
+    background-position: -112px -1px;
+}
+.game .background-picture .score .four{
+    width: 34px;
+    height: 40px;
+    background-position: -151px -1px;
+}
+.game .background-picture .score .five{
+    width: 26px;
+    height: 40px;
+    background-position: -189px -1px;
+}
+.game .background-picture .score .six{
+    width: 27px;
+    height: 40px;
+    background-position: -3px -43px;
+}
+.game .background-picture .score .seven{
+    width: 28px;
+    height: 40px;
+    background-position: -39px -43px;
+}
+.game .background-picture .score .eight{
+    width: 30px;
+    height: 40px;
+    background-position: -77px -43px;
+}
+.game .background-picture .score .nine{
+    width: 30px;
+    height: 40px;
+    background-position: -113px -43px;
+}
+
+.game .background-picture .play{
+    position: fixed;
+    left: 670px;
+    top: 550px;
+}
+
+/*0:x=1,y=1,w=33,h=40;*/
+/*1:x=39,y=1,w=18,h=40;*/
+/*2:x=75,y=1,w=28,h=40;*/
+/*3:x=112,y=1,w=29,h=40;*/
+/*4:x=149,y=1,w=34,h=40;*/
+/*5:x=186,y=1,w=28,h=40;*/
+/*6:x=1,y=43,w=34,h=40;*/
+/*7:x=39,y=43,w=28,h=40;*/
+/*8:x=75,y=43,w=34,h=40;*/
+/*9:x=112,y=43,w=34,h=40*/
+
+/*梅花1:2 2 143 199;*/
+/*梅花2:148 2 143 199;*/
+/*梅花3:293 2 143 199;*/
+/*梅花4:438 2 143 199;*/
+/*梅花5:583 2 143 199;*/
+/*梅花6:728 2 143 199;*/
+/*梅花7:873 2 143 199;*/
+.clubs-one{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -2px;
+}
+
+.clubs-two{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -2px;
+}
+
+.clubs-three{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -2px;
+}
+
+.clubs-four{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -2px;
+}
+
+.clubs-five{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -2px;
+}
+
+.clubs-six{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -2px;
+}
+
+.clubs-seven{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -2px;
+}
+
+/*梅花8:2 203 143 199;*/
+/*梅花9:148 203 143 199;*/
+/*梅花10:293 203 143 199;*/
+/*梅花J:438 203 143 199;*/
+/*梅花Q:583 203 143 199;*/
+/*梅花K:728 203 143 199;*/
+/*葵花1:873 203 143 199;*/
+
+.clubs-eight{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -203px;
+}
+
+.clubs-nine{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -203px;
+}
+
+.clubs-ten{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -203px;
+}
+
+.clubs-joker{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -203px;
+}
+
+.clubs-queen{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -203px;
+}
+
+.clubs-king{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -203px;
+}
+
+.spade-one{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -203px;
+}
+
+
+/*葵花2:2 404 143 199;*/
+/*葵花3:148 404 143 199;*/
+/*葵花4:293 404 143 199;*/
+/*葵花5:438 404 143 199;*/
+/*葵花6:583 404 143 199;*/
+/*葵花7:728 404 143 199;*/
+/*葵花8:873 404 143 199;*/
+
+.spade-two{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -404px;
+}
+
+.spade-three{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -404px;
+}
+
+.spade-four{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -404px;
+}
+
+.spade-five{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -404px;
+}
+
+.spade-six{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -404px;
+}
+
+.spade-seven{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -404px;
+}
+
+.spade-eight{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -404px;
+}
+
+/*葵花9:2 605 143 199;*/
+/*葵花10:148 605 143 199;*/
+/*葵花J:293 605 143 199;*/
+/*葵花Q:438 605 143 199;*/
+/*葵花K:583 605 143 199;*/
+/*桃花1:728 605 143 199;*/
+/*桃花2:873 605 143 199;*/
+
+.spade-nine{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -605px;
+}
+
+.spade-ten{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -605px;
+}
+
+.spade-joker{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -605px;
+}
+
+.spade-queen{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -605px;
+}
+
+.spade-king{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -605px;
+}
+
+.heart-one{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -605px;
+}
+
+.heart-two{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -605px;
+}
+
+/*桃花3:3 806 143 199;*/
+/*桃花4:148 806 143 199;*/
+/*桃花5:293 806 143 199;*/
+/*桃花6:438 806 143 199;*/
+/*桃花7:583 806 143 199;*/
+/*桃花8:728 806 143 199;*/
+/*桃花9:873 806 143 199;*/
+
+.heart-three{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -806px;
+}
+
+.heart-four{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -806px;
+}
+
+.heart-five{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -806px;
+}
+
+.heart-six{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -806px;
+}
+
+.heart-seven{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -806px;
+}
+
+.heart-eight{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -806px;
+}
+
+.heart-nine{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -806px;
+}
+
+/*桃花10:2 2 143 199;*/
+/*桃花J:148 2 143 199;*/
+/*桃花Q:293 2 143 199;*/
+/*桃花K:438 2 143 199;*/
+/*方块1:583 2 143 199;*/
+/*方块2:728 2 143 199;*/
+/*方块3:873 2 143 199;*/
+
+.heart-ten{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -2px;
+}
+
+.heart-joker{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -2px;
+}
+
+.heart-queen{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -2px;
+}
+
+.heart-king{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -2px;
+}
+
+.dianmond-one{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -2px;
+}
+
+.dianmond-two{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -2px;
+}
+
+.dianmond-three{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -2px;
+}
+
+/*方块4:2 203 143 199;*/
+/*方块5:148 203 143 199;*/
+/*方块6:293 203 143 199;*/
+/*方块7:438 203 143 199;*/
+/*方块8:583 203 143 199;*/
+/*方块9:728 203 143 199;*/
+/*方块10:873 203 143 199;*/
+
+.dianmond-four{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -203px;
+}
+
+.dianmond-five{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -203px;
+}
+
+.dianmond-six{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -203px;
+}
+
+.dianmond-seven{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -203px;
+}
+
+.dianmond-eight{
+    width: 145px;
+    height: 199px;
+    background-position: -583px -203px;
+}
+
+.dianmond-nine{
+    width: 145px;
+    height: 199px;
+    background-position: -728px -203px;
+}
+
+.dianmond-ten{
+    width: 145px;
+    height: 199px;
+    background-position: -873px -203px;
+}
+
+/*方块J:2 404 143 199;*/
+/*方块Q:148 404 143 199;*/
+/*方块K:293 404 143 199;*/
+/*背面:438 404 143 199;*/
+
+.dianmond-joker{
+    width: 145px;
+    height: 199px;
+    background-position: -2px -404px;
+}
+
+.dianmond-queen{
+    width: 145px;
+    height: 199px;
+    background-position: -148px -404px;
+}
+
+.dianmond-king{
+    width: 145px;
+    height: 199px;
+    background-position: -293px -404px;
+}
+
+.card-back{
+    width: 145px;
+    height: 199px;
+    background-position: -438px -404px;
+}
+
+.cardsA{
+    display: flex;
+    flex-direction: row;
+}
+.cardsA div{
+    background-image: url("../images/cardsA.png");
+}
+
+.cardsB{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardsB div{
+    background-image: url("../images/cardsB.png");
+}
+
+.cardsA-block{
+    position: fixed;
+    left: 200px;
+    top: 200px;
+}
+
+.cardsB-block{
+    position: fixed;
+    left: 200px;
+    top: 450px;
+}
+
+.button-x20{
+    position: fixed;
+    left: 1310px;
+    top: 170px;
+    width: 100px;
+}
+
+
+.button-x100{
+    position: fixed;
+    left: 1310px;
+    top: 280px;
+    width: 100px;
+}
+
+.button-x500{
+    position: fixed;
+    left: 1310px;
+    top: 390px;
+    width: 100px;
+}
+
+.button-x1k{
+    position: fixed;
+    left: 1310px;
+    top: 510px;
+    width: 100px;
+}
+
+.deck{
+    position: fixed;
+    left: 1110px;
+    top: 120px;
+    width: 100px;
+}
+
+.button-deal{
+    position: fixed;
+    left: 350px;
+    top: 570px;
+}
+
+.button-2x{
+    position: fixed;
+    left: 490px;
+    top: 600px;
+}
+
+.button-stand{
+    position: fixed;
+    left: 960px;
+    top: 600px;
+    opacity: 0.5;
+}
+
+.button-hit{
+    position: fixed;
+    left: 1100px;
+    top: 570px;
+    opacity: 0.5;
+}
+
+.bet-score{
+    position: fixed;
+    left: 730px;
+    top: 630px;
+}
+
