@@ -18,7 +18,7 @@
             </div>
 
             <div class="score">
-                <div class="font">123456789</div>
+                <div class="font">5000</div>
                 <#--<span class="zero"></span>-->
                 <#--<span class="one"></span>-->
                 <#--<span class="two"></span>-->
@@ -31,15 +31,15 @@
                 <#--<span class="nine"></span>-->
             </div>
 
-            <div class="beat-score">
-                <div class="font">123456789</div>
-            </div>
+            <#--<div class="beat-score">-->
+                <#--<div class="font">123456789</div>-->
+            <#--</div>-->
 
-            <div class="beat">
-                <img src="/blackjack/images/beat.png">
-            </div>
+            <#--<div class="beat">-->
+                <#--<img src="/blackjack/images/beat.png">-->
+            <#--</div>-->
             <div class="play">
-                <a href="#"><img src="/blackjack/images/play.png"></a>
+                <a href="/blackjack/play"><img src="/blackjack/images/play.png"></a>
 
             </div>
         </div>

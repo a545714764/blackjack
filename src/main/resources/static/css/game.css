@@ -27,7 +27,7 @@ body{
 }
 
 /*span{*/
-    /*background-image: url("../images/0-9.png");*/
+    /*background-button: url("../images/0-9.png");*/
     /*display: inline-block;*/
 /*}*/
 
@@ -142,37 +142,37 @@ body{
 .clubs-two{
     width: 145px;
     height: 199px;
-    background-position: -148px -2px;
+    background-position: -147px -2px;
 }
 
 .clubs-three{
     width: 145px;
     height: 199px;
-    background-position: -293px -2px;
+    background-position: -292px -2px;
 }
 
 .clubs-four{
     width: 145px;
     height: 199px;
-    background-position: -438px -2px;
+    background-position: -437px -2px;
 }
 
 .clubs-five{
     width: 145px;
     height: 199px;
-    background-position: -583px -2px;
+    background-position: -582px -2px;
 }
 
 .clubs-six{
     width: 145px;
     height: 199px;
-    background-position: -728px -2px;
+    background-position: -727px -2px;
 }
 
 .clubs-seven{
     width: 145px;
     height: 199px;
-    background-position: -873px -2px;
+    background-position: -872px -2px;
 }
 
 /*梅花8:2 203 143 199;*/
@@ -192,37 +192,37 @@ body{
 .clubs-nine{
     width: 145px;
     height: 199px;
-    background-position: -148px -203px;
+    background-position: -147px -203px;
 }
 
 .clubs-ten{
     width: 145px;
     height: 199px;
-    background-position: -293px -203px;
+    background-position: -292px -203px;
 }
 
 .clubs-joker{
     width: 145px;
     height: 199px;
-    background-position: -438px -203px;
+    background-position: -437px -203px;
 }
 
 .clubs-queen{
     width: 145px;
     height: 199px;
-    background-position: -583px -203px;
+    background-position: -582px -203px;
 }
 
 .clubs-king{
     width: 145px;
     height: 199px;
-    background-position: -728px -203px;
+    background-position: -727px -203px;
 }
 
 .spade-one{
     width: 145px;
     height: 199px;
-    background-position: -873px -203px;
+    background-position: -872px -203px;
 }
 
 
@@ -243,37 +243,37 @@ body{
 .spade-three{
     width: 145px;
     height: 199px;
-    background-position: -148px -404px;
+    background-position: -147px -404px;
 }
 
 .spade-four{
     width: 145px;
     height: 199px;
-    background-position: -293px -404px;
+    background-position: -292px -404px;
 }
 
 .spade-five{
     width: 145px;
     height: 199px;
-    background-position: -438px -404px;
+    background-position: -437px -404px;
 }
 
 .spade-six{
     width: 145px;
     height: 199px;
-    background-position: -583px -404px;
+    background-position: -582px -404px;
 }
 
 .spade-seven{
     width: 145px;
     height: 199px;
-    background-position: -728px -404px;
+    background-position: -727px -404px;
 }
 
 .spade-eight{
     width: 145px;
     height: 199px;
-    background-position: -873px -404px;
+    background-position: -872px -404px;
 }
 
 /*葵花9:2 605 143 199;*/
@@ -293,37 +293,37 @@ body{
 .spade-ten{
     width: 145px;
     height: 199px;
-    background-position: -148px -605px;
+    background-position: -147px -605px;
 }
 
 .spade-joker{
     width: 145px;
     height: 199px;
-    background-position: -293px -605px;
+    background-position: -292px -605px;
 }
 
 .spade-queen{
     width: 145px;
     height: 199px;
-    background-position: -438px -605px;
+    background-position: -437px -605px;
 }
 
 .spade-king{
     width: 145px;
     height: 199px;
-    background-position: -583px -605px;
+    background-position: -582px -605px;
 }
 
 .heart-one{
     width: 145px;
     height: 199px;
-    background-position: -728px -605px;
+    background-position: -727px -605px;
 }
 
 .heart-two{
     width: 145px;
     height: 199px;
-    background-position: -873px -605px;
+    background-position: -872px -605px;
 }
 
 /*桃花3:3 806 143 199;*/
@@ -343,37 +343,37 @@ body{
 .heart-four{
     width: 145px;
     height: 199px;
-    background-position: -148px -806px;
+    background-position: -147px -806px;
 }
 
 .heart-five{
     width: 145px;
     height: 199px;
-    background-position: -293px -806px;
+    background-position: -292px -806px;
 }
 
 .heart-six{
     width: 145px;
     height: 199px;
-    background-position: -438px -806px;
+    background-position: -437px -806px;
 }
 
 .heart-seven{
     width: 145px;
     height: 199px;
-    background-position: -583px -806px;
+    background-position: -582px -806px;
 }
 
 .heart-eight{
     width: 145px;
     height: 199px;
-    background-position: -728px -806px;
+    background-position: -727px -806px;
 }
 
 .heart-nine{
     width: 145px;
     height: 199px;
-    background-position: -873px -806px;
+    background-position: -872px -806px;
 }
 
 /*桃花10:2 2 143 199;*/
@@ -393,31 +393,31 @@ body{
 .heart-joker{
     width: 145px;
     height: 199px;
-    background-position: -148px -2px;
+    background-position: -147px -2px;
 }
 
 .heart-queen{
     width: 145px;
     height: 199px;
-    background-position: -293px -2px;
+    background-position: -292px -2px;
 }
 
 .heart-king{
     width: 145px;
     height: 199px;
-    background-position: -438px -2px;
+    background-position: -437px -2px;
 }
 
 .dianmond-one{
     width: 145px;
     height: 199px;
-    background-position: -583px -2px;
+    background-position: -582px -2px;
 }
 
 .dianmond-two{
     width: 145px;
     height: 199px;
-    background-position: -728px -2px;
+    background-position: -727px -2px;
 }
 
 .dianmond-three{
@@ -443,37 +443,37 @@ body{
 .dianmond-five{
     width: 145px;
     height: 199px;
-    background-position: -148px -203px;
+    background-position: -147px -203px;
 }
 
 .dianmond-six{
     width: 145px;
     height: 199px;
-    background-position: -293px -203px;
+    background-position: -292px -203px;
 }
 
 .dianmond-seven{
     width: 145px;
     height: 199px;
-    background-position: -438px -203px;
+    background-position: -437px -203px;
 }
 
 .dianmond-eight{
     width: 145px;
     height: 199px;
-    background-position: -583px -203px;
+    background-position: -582px -203px;
 }
 
 .dianmond-nine{
     width: 145px;
     height: 199px;
-    background-position: -728px -203px;
+    background-position: -727px -203px;
 }
 
 .dianmond-ten{
     width: 145px;
     height: 199px;
-    background-position: -873px -203px;
+    background-position: -872px -203px;
 }
 
 /*方块J:2 404 143 199;*/
@@ -490,13 +490,13 @@ body{
 .dianmond-queen{
     width: 145px;
     height: 199px;
-    background-position: -148px -404px;
+    background-position: -147px -404px;
 }
 
 .dianmond-king{
     width: 145px;
     height: 199px;
-    background-position: -293px -404px;
+    background-position: -292px -404px;
 }
 
 .card-back{
@@ -524,14 +524,18 @@ body{
 
 .cardsA-block{
     position: fixed;
-    left: 200px;
-    top: 200px;
+    left: 1125px;
+    /*left: 1110px;*/
+    top: 120px;
+    /*-webkit-animation:animation-blockA-dealer 3s;*/
+
 }
 
 .cardsB-block{
     position: fixed;
-    left: 200px;
-    top: 450px;
+    left: 1125px;
+    top: 120px;
+    /*-webkit-animation:animation-blockB-dealer 3s;*/
 }
 
 .button-x20{
@@ -539,6 +543,7 @@ body{
     left: 1310px;
     top: 170px;
     width: 100px;
+    cursor: pointer;
 }
 
 
@@ -547,6 +552,7 @@ body{
     left: 1310px;
     top: 280px;
     width: 100px;
+    cursor: pointer;
 }
 
 .button-x500{
@@ -554,6 +560,7 @@ body{
     left: 1310px;
     top: 390px;
     width: 100px;
+    cursor: pointer;
 }
 
 .button-x1k{
@@ -561,6 +568,7 @@ body{
     left: 1310px;
     top: 510px;
     width: 100px;
+    cursor: pointer;
 }
 
 .deck{
@@ -574,12 +582,14 @@ body{
     position: fixed;
     left: 350px;
     top: 570px;
+    cursor: pointer;
 }
 
 .button-2x{
     position: fixed;
     left: 490px;
     top: 600px;
+    cursor: pointer;
 }
 
 .button-stand{
@@ -587,6 +597,7 @@ body{
     left: 960px;
     top: 600px;
     opacity: 0.5;
+    cursor: default;
 }
 
 .button-hit{
@@ -594,11 +605,75 @@ body{
     left: 1100px;
     top: 570px;
     opacity: 0.5;
+    cursor: default;
 }
 
 .bet-score{
     position: fixed;
-    left: 730px;
+    left: 770px;
     top: 630px;
 }
+
+.deal-to-server{
+    border-radius: 100px;
+}
+/*1110 120*/
+@-webkit-keyframes animation-begin-delaer{
+    0% {width: 145px; height: 199px;  background-position: -293px -404px;}
+}
+
+@-webkit-keyframes animation-blockA-dealer /* Safari and Chrome */
+{
+    0%   {left:1125px; top:120px;}
+    100% {left:600px; top:120px;}
+}
+
+@-webkit-keyframes animation-blockB-dealer /* Safari and Chrome */
+{
+    0%   {left:1125px; top:120px;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left:600px; top:350px;}
+}
+
+.over-word-block{
+    position: fixed;
+    left: 625px;
+    /*left: 1110px;*/
+    top: 400px;
+    /*-webkit-animation:animation-blockA-dealer 3s;*/
+
+}
+
+.over-word{
+    display: flex;
+    flex-direction: row;
+}
+.over-word div{
+    background-image: url("../images/YOULOSEYOUWINPUSH.png");
+}
+
+.you-lose{
+    width: 293px;
+    height: 61px;
+    background-position: -2px -2px;
+}
+.you-win{
+    width: 271px;
+    height: 63px;
+    background-position: -2px -64px;
+}
+.push{
+    width: 179px;
+    height: 61px;
+    background-position: -299px -65px;
+}
+
+/*
+you lose : w:293 h:61 x:2 y:2
+you win: w:271 h:61 x=2 y:61
+push!   : w:179 h:61 x=299 y:65
+ */
+
 
